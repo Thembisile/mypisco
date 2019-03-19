@@ -2,7 +2,7 @@
 
 Program for calculating recursion functionality and sorting items in an array
 
-##Install through github:
+## Install through github:
 
 `pip install git https://github.com/Thembisile/mypisco.git`
 
