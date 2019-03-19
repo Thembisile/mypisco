@@ -8,7 +8,7 @@ setup(
     description='Python package for recursion and sorting functionality',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/Thembisile/mypisco',
+    url='https://github.com/Thembisile/mypisco.git',
     author='Shaun',
     author_email='shaundamon09@gmail.com'
 )
