@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mypisco',
-    version='0.1',
+    version='0.5',
     packages=find_packages(exclude=['tests*']),
     license='MIT',
     description='Python package for recursion and sorting functionality',
