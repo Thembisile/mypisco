@@ -1,4 +1,4 @@
-from mypisco import recursion, sorting
+from mypiscofolder import recursion, sorting
 
 
 def test_sum_array():
