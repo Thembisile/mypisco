@@ -6,7 +6,6 @@ def bubble_sort(items):
                items[i] = items[i+1]
                items[i+1] = temp
    return items
-print(bubble_sort([8,5,46,16,22,18]))
 
 def merge_sort(items):
     def merge_sort(items):
@@ -39,7 +38,7 @@ def merge_sort(items):
 
         return new_list
     return merge_sort(items)
-print(merge_sort([8,5,46,16,22,18]))
+
 
 def quick_sort(items):
 
@@ -70,4 +69,3 @@ def quick_sort(items):
        return_list = left_list + equal_list + right_list
 
    return return_list
-print(quick_sort([8,5,46,16,22,18]))
