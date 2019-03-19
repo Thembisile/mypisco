@@ -38,6 +38,7 @@ def merge(A, B):
 
     return new_list
 print(merge_sort([8,5,46,16,22,18]))
+
 def quick_sort(items):
 
    if len(items) == 2:
