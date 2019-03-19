@@ -6,7 +6,7 @@ def bubble_sort(items):
                items[i] = items[i+1]
                items[i+1] = temp
    return items
-
+print(bubble_sort([8,5,46,16,22,18]))
 def merge_sort(items):
     len_i = len(items)
     # Base case. A list of size 1 is sorted.
@@ -20,7 +20,6 @@ def merge_sort(items):
     i2 = merge_sort(items[mid_point:])
     # call merge_sort function on each half of list 
     return merge(i1, i2)
-
 # Merge function.
 def merge(A, B):
     new_list = []
@@ -38,7 +37,7 @@ def merge(A, B):
         new_list = new_list + A
 
     return new_list
-
+print(merge_sort([8,5,46,16,22,18]))
 def quick_sort(items):
 
    if len(items) == 2:
@@ -68,3 +67,4 @@ def quick_sort(items):
        return_list = left_list + equal_list + right_list
 
    return return_list
+print(quick_sort([8,5,46,16,22,18]))

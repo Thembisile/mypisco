@@ -1,6 +1,5 @@
 from mypisco import recursion, sorting
 
-
 def test_sum_array():
     """
     make sure sum_array works correctly
